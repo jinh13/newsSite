@@ -2,7 +2,6 @@ body {
 	margin: 0;
 	padding: 0;
 	background-position: center top;
-	height: 2500px;
 }
 
 #intro{
@@ -35,114 +34,149 @@ font-size: 20px;
 color:white;
 }
 
-#about{
-	background-color: #A40102;
-	padding-bottom: 40px;
+#box1{
+	width: 1400px;
 }
 
-#about h1{
-font-family: 'Playfair Display', serif;
+#science{
+	background-color: #e3ba8e;
+	padding-top: 20px;
+}
+
+#science h1{
+font-family: 'Roboto', sans-serif;
+	font-weight: 900;
 		font-size: 35px;
 		padding-left: 50px;
-		padding-top: 20px;
-				color: #FEEEB3;
+		color: #180602;
 				margin-top: 0;
-				margin-bottom: 0;
+				margin-bottom: 30px;
 				display: inline-block;
 }
 
-#about p{
-font-family: 'Playfair Display', serif;
+#science p{
+font-family: 'Roboto', sans-serif;
 font-weight: 100;
 	font-size: 18px;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-bottom: 15px;
-	margin-bottom: 20px;
-	color: #FEEEB3;
-}
-.circles{
-	width:800px;
-	height:205px;
-	margin:auto;
-	overflow: auto;
-}
-#ramen1{
-	height: 200px;
-	width: 200px;
-	float: left;
-	margin-right:100px;
-}
-#ramen2{
-	height: 200px;
-	width: 200px;
-		float: left;
-			margin-right:100px;
-
-
-}#ramen3{
-	height: 200px;
-	width: 200px;
-		float: left;
-
-}
-#history {
-background-image: url(endpic.png);
-background-repeat: no-repeat; 
-background-position: right;
-background-color: #FEEEB3;
-background-size: 450px 450px;
+	color: #180602;
 }
 
-#history h1{
-	font-size: 35px;
-	text-align: left;
-	padding-left: 50px;
-	padding-top: 20px;
-	margin-top:0px;
-font-family: 'Playfair Display', serif;
+#science a {
+color: #180602;
+text-decoration: none;
 }
 
-#history p{
-font-family: 'Playfair Display', serif;
-	font-size: 18px;
-	padding-left: 50px;
-	padding-right: 500px;
+#box2{
+	width: 1400px;
 }
 
-#history div{
-font-family: 'Playfair Display', serif;
-	font-size: 18px;
-	padding-bottom: 15px;
+#engineering {
+background-color: white;
+padding-top: 20px;
 }
 
-#soup{
-	background-color: #A40102;
-	padding-bottom: 40px;
-}
-#soup h1{
-	font-size: 35px;
-	text-align: left;
-	padding-left: 50px;
-	margin-top: 0px;
-	padding-top: 20px;
-font-family: 'Playfair Display', serif;	
- color: #FEEEB3;
+#engineering h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+		font-size: 35px;
+		padding-left: 50px;
+		color: #180602;
+				margin-top: 0;
+				margin-bottom: 30px;
+				display: inline-block;
 }
 
-#soup p{
+#engineering p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 	font-size: 18px;
 	padding-left: 50px;
 	padding-right: 50px;
-font-family: 'Playfair Display', serif;
- color: #FEEEB3;
+	color: #180602;
 }
+
+#engineering a {
+color: #180602;
+text-decoration: none;
+}
+
+#box3{
+	width: 1400px;
+}
+
+#business{
+	background-color: #e3ba8e;
+	padding-top: 20px;
+}
+
+#business h1{
+font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+		font-size: 35px;
+		padding-left: 50px;
+		color: #180602;
+				margin-top: 0;
+				margin-bottom: 30px;
+				display: inline-block;
+}
+
+#business p{
+font-family: 'Roboto', sans-serif;
+font-weight: 100;
+	font-size: 18px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #180602;
+}
+
+#business a {
+color: #180602;
+text-decoration: none;
+}
+
+
+#box4{
+	width: 1400px;
+}
+
+#architecture {
+background-color: white;
+padding-top: 20px;
+}
+
+#architecture h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+		font-size: 35px;
+		padding-left: 50px;
+		color: #180602;
+				margin-top: 0;
+				margin-bottom: 30px;
+				display: inline-block;
+}
+
+#architecture p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #180602;
+}
+
+#architecture a {
+color: #180602;
+text-decoration: none;
+}
+
 
 .image{
 height: 300px;
-width: 550px;
+width: 500px;
  display: inline-block;
-font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
  padding-right: 50px;
  padding-left: 50px;
  text-align: left;				
@@ -151,8 +185,8 @@ margin: auto;
 }
 
 .image img{
-height: 170px;
-width: 220px;
+height: 200px;
 float: left;
 padding:20px;
 }
+
